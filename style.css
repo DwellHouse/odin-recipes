@@ -1,4 +1,8 @@
-h1, h3{
+* {
+    text-align: center;
+}
+
+h1, h3, {
     color: red;
     text-align: center;
     font-weight: bold;
@@ -15,5 +19,6 @@ li, .recipe {
 
 img {
     height: auto;
-    width: 500px;
+    width: 200px;
+    margin: 0 500px 0;
 }
