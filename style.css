@@ -1,8 +1,9 @@
 * {
     text-align: center;
+    box-sizing: border-box;
 }
 
-h1, h3, {
+h1, h3 {
     color: red;
     text-align: center;
     font-weight: bold;
@@ -15,6 +16,9 @@ li, .recipe {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     font-size: 24px;
+    border: 2px solid red;  
+    display: inline-block;
+    list-style: none;
 }
 
 img {
